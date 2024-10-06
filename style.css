@@ -43,6 +43,16 @@ body {
     flex-wrap: nowrap;
 }
 
+.card > .row > .icon {
+    background: #223;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
 .card > .row > .description {
     display: flex;
     justify-content: center;
