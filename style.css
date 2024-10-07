@@ -7,6 +7,8 @@
 
 body {
     background-color: #eeeeea;
+    background-image: url(./_.jpeg);
+    background-size: 100vw;
 }
 
 .wrapper {
@@ -33,7 +35,7 @@ body {
     border-radius: 2rem;
     margin: 0 10px;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     transition: .6s cubic-bezier(.28,-0.03,0,.99);
     box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
 }
@@ -87,13 +89,18 @@ input:checked + label .description {
     opacity: 1 !important;
     transform: translateY(0) !important;
 }
-
+.card{
+    background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-color: black;
+}
 .card[for="c1"] {
-    background-image: url();
+    background-image: url(./_.jpeg);
 }
 
 .card[for="c2"] {
-    background-image: url();
+    background-image: url(./_.jpeg);
 }
 
 .card[for="c3"] {
@@ -102,6 +109,7 @@ input:checked + label .description {
 
 .card[for="c4"] {
     background-image: url();
+
 }
 
 .card[for="c5"] {
